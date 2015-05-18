@@ -553,8 +553,8 @@ $.imgAreaSelect = function (img, options) {
              */
             checkResize(event);
         }
-        else
-            adjust();
+
+        adjust();
 
         if (resize) {
             /* Resize mode is in effect */
